@@ -153,6 +153,7 @@ then you can ask that to be pulled with
 git request-pull v1.0 https://git.ko.xz/project master:for-linus
 ```
 
+</br>
 
 # GitHubs help guide when making a new repo
 
@@ -175,6 +176,8 @@ git remote add origin https://github.com/mlyasota/notes.git
 git branch -M main
 git push -u origin main
 ```
+
+</br>
 
 # Other Links
 
