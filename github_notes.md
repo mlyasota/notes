@@ -13,6 +13,7 @@ Title: GitHub Notes
 - [git-branches](#git-branches)
 - [PULL Request through Command Line](#pull-request-through-command-line)
 - [git-request-pull](#git-request-pull)
+- [GitHubs help guide when making a new repo](#githubs-help-guide-when-making-a-new-repo)
 - [Other Links](#other-links)
 
 <div style="page-break-after: always; break-after: page;"></div> 
@@ -153,8 +154,27 @@ git request-pull v1.0 https://git.ko.xz/project master:for-linus
 ```
 
 
+# GitHubs help guide when making a new repo
 
+<h2> …or create a new repository on the command line </h2>
 
+```
+echo "# notes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mlyasota/notes.git
+git push -u origin main
+```
+
+<h2> …or push an existing repository from the command line </h2>
+
+```
+git remote add origin https://github.com/mlyasota/notes.git
+git branch -M main
+git push -u origin main
+```
 
 # Other Links
 
